@@ -1,10 +1,10 @@
 const { handler } = require("../lib/lambda/index");
 const { CognitoIdentityProviderClient, AdminInitiateAuthCommand } = require("@aws-sdk/client-cognito-identity-provider");
 
-const USER_POOL_ID = "";
-const CLIENT_ID = "";
-const TEST_USERNAME = "+919554540272";
-const TEST_PASSWORD = "rayees@1234";
+const USER_POOL_ID = "us-east-2_DlH3RNwYi";
+const CLIENT_ID = "ojp61stulkie2rbb1k1hvc6mv";
+const TEST_USERNAME = "+919554540271";
+const TEST_PASSWORD = "rayees@12345";
 
 const cognitoClient = new CognitoIdentityProviderClient({ region: "us-east-2" });
 
